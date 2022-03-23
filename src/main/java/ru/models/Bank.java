@@ -1,19 +1,19 @@
 package ru.models;
 
 public class Bank extends Product {
-    private String BankProducts;
+    private String Services;
     private String LevelOperation;
 
-    public Smartphone(Integer id, String BankProducts, String LevelOperation, double price, int count) {
+    public Smartphone(Integer id, String Services, String LevelOperation, double price, int count) {
         super(id, price, count);
-        this.BankProducts = BankProducts;
+        this.Services = Services;
         this.LevelOperation = LevelOperation;
     }
-    public String getBankProducts() {
-        return BankProducts;
+    public String getServices() {
+        return Services;
     }
-    public void setBankProducts(String BankProducts) {
-        this.BankProducts = BankProducts;
+    public void setServices(String Services) {
+        this.Services = Services;
     }
     public String getLevelOperation() {
         return LevelOperation;
@@ -24,6 +24,6 @@ public class Bank extends Product {
 
     @Override
     public String toString() {
-        return super.toString() + "; BankProducts : " + BankProducts + "; LevelOperation: " + LevelOperation + "\n";
+        return super.toString() + "; Services : " + Services + "; LevelOperation: " + LevelOperation + "\n";
     }
 }
