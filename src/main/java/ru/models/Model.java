@@ -1,5 +1,4 @@
 package ru.models;
-
 public class Model {
     private Integer id;
     public Integer getId() {
