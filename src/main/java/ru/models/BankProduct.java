@@ -1,10 +1,10 @@
 package ru.models;
 
-public class Bank extends Product {
+public class BankProduct extends Product {
     private String Services;
     private String LevelOperation;
 
-    public Smartphone(Integer id, String Services, String LevelOperation, double price, int count) {
+    public BankProduct (Integer id, String Services, String LevelOperation, double price, int count) {
         super(id, price, count);
         this.Services = Services;
         this.LevelOperation = LevelOperation;
