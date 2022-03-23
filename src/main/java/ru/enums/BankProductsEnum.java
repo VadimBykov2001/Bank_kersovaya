@@ -1,9 +1,9 @@
 package ru.enums;
 
-public enum ProductEnum{
+public enum BankProductsEnum{
     Credit("Кредит"), CreditCard("Кредитная карта"), Investment("Инвестиции"), Insurance("Страхование"), Mortgage("Ипотека");
     private final String value;
-    ProductEnum(String value) {
+    BankProductsEnum(String value) {
         this.value = value;
     }
     public String getValue() {
