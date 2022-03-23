@@ -1,6 +1,5 @@
 package ru.models;
 import java.time.LocalDate;
-
 public class Order extends Model {
     private Consumer consumer;
     private LocalDate created;
