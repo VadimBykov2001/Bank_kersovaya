@@ -1,5 +1,4 @@
 package ru.models;
-
 public class Consumer extends Model{
     String name;
     Double money;
