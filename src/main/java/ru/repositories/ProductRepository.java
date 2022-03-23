@@ -4,6 +4,7 @@ import ru.enums.LevelOperation;
 import ru.models.BankProduct;
 import ru.models.Product;
 import java.util.ArrayList;
+
 public class ProductRepository extends RepositoryImpl<Product> {
     private static ProductRepository instance;
     public static ProductRepository getInstance(){
