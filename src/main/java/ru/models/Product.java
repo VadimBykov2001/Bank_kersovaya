@@ -1,4 +1,5 @@
 package ru.models;
+
 public class Product extends Model{
     private double price;
     private int count;
