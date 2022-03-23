@@ -1,6 +1,5 @@
 package ru.repositories;
 import java.util.List;
-
 public class RepositoryImpl<T> implements Repository<
     private List<T> repository;
     public RepositoryImpl(List<T> 
