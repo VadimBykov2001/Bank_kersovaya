@@ -1,9 +1,9 @@
-package ru.tn.courses.vbykov.v1.task2;
-import ru.tn.courses.vbykov.v1.task2.business.InternetBank;
-import ru.tn.courses.vbykov.v1.task2.business.MyBank;
-import ru.tn.courses.vbykov.v1.task2.models.Consumer;
-import ru.tn.courses.vbykov.v1.task2.repositories.ConsumerRepository;
-import ru.tn.courses.vbykov.v1.task2.repositories.OrderRepository;
+package ru;
+import ru.bank.InternetBank;
+import ru.bank.MyBank;
+import ru.models.Consumer;
+import ru.repositories.ConsumerRepository;
+import ru.repositories.OrderRepository;
 import java.util.Scanner;
 
 public class Bank {
