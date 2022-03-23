@@ -58,7 +58,7 @@ public class MyBank implements InternetBank {
             orderRepository.update(order, orderId);
             return order;
         } catch (Exception e) {
-            throw new Exception("Заказа с таким id не найдено.");
+            throw new Exception("Заказа с таким id не найдено");
         }
     }
     @Override
