@@ -3,7 +3,6 @@ package ru.models;
 public class BankProduct extends Product {
     private String Services;
     private String LevelOperation;
-
     public BankProduct (Integer id, String Services, String LevelOperation, double price, int count) {
         super(id, price, count);
         this.Services = Services;
